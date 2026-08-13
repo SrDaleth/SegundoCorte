@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>IUC GameZone — Registro</title>
+
+    <link rel="stylesheet" href="./css/theme.css">
+</head>
+
+<body>
+
+    <!-- ================= HEADER ================= -->
+
+    <header class="site-header">
+
+        <div class="site-brand">
+
+            <div class="brand-icon">
+                🎮
+            </div>
+
+            <div>
+                <h2>IUC GameZone</h2>
+                <span>PORTAL GAMER · IUC</span>
+            </div>
+
+        </div>
+
+
+        <nav class="site-nav">
+
+            <a href="index.html">
+                Inicio
+            </a>
+
+            <a href="actividad_01.html">
+                Juegos
+            </a>
+
+            <a href="actividad_02.html">
+                Noticias
+            </a>
+
+            <a href="actividad_03.html">
+                Guías
+            </a>
+
+            <a href="actividad_04.html">
+                Eventos
+            </a>
+
+            <a href="actividad_05.html" class="current">
+                Registro
+            </a>
+
+            <a href="actividad_06.html">
+                Comunidad
+            </a>
+
+        </nav>
+
+    </header>
+
+
+    <!-- ================= HERO ================= -->
+
+    <section class="page-hero">
+
+        <div class="page-hero-content">
+
+            <span>
+                ACTIVIDAD 05 · REGISTRO
+            </span>
+
+            <h1>
+                Únete a
+                <strong>GameZone</strong>
+            </h1>
+
+            <p>
+                Regístrate para participar en nuestros eventos
+                y formar parte de la comunidad gamer.
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= CONTENIDO ================= -->
+
+    <main class="main-content">
+
+        <section class="register-layout">
+
+
+            <!-- ================= FORMULARIO ================= -->
+
+            <div class="register-card">
+
+                <div class="register-card-header">
+
+                    <span>
+                        REGISTRO DE JUGADOR
+                    </span>
+
+                    <h2>
+                        Crea tu perfil
+                    </h2>
+
+                    <p>
+                        Completa los siguientes datos para registrarte.
+                    </p>
+
+                </div>
+
+
+                <form id="registroForm">
+
+
+                    <!-- NOMBRE -->
+
+                    <div class="form-group">
+
+                        <label for="nombre">
+                            Nombre completo
+                        </label>
+
+                        <input
+                            type="text"
+                            id="nombre"
+                            placeholder="Ej: Juan Pérez"
+                            required
+                        >
+
+                    </div>
+
+
+                    <!-- CORREO -->
+
+                    <div class="form-group">
+
+                        <label for="correo">
+                            Correo electrónico
+                        </label>
+
+                        <input
+                            type="email"
+                            id="correo"
+                            placeholder="Ej: jugador@email.com"
+                            required
+                        >
+
+                    </div>
+
+
+                    <!-- USUARIO -->
+
+                    <div class="form-group">
+
+                        <label for="usuario">
+                            Nombre de jugador
+                        </label>
+
+                        <input
+                            type="text"
+                            id="usuario"
+                            placeholder="Ej: SrDaleth"
+                            required
+                        >
+
+                    </div>
+
+
+                    <!-- JUEGO -->
+
+                    <div class="form-group">
+
+                        <label for="juego">
+                            Juego favorito
+                        </label>
+
+                        <select id="juego" required>
+
+                            <option value="">
+                                Selecciona un juego
+                            </option>
+
+                            <option value="Minecraft">
+                                Minecraft
+                            </option>
+
+                            <option value="Fortnite">
+                                Fortnite
+                            </option>
+
+                            <option value="GTA V">
+                                Grand Theft Auto V
+                            </option>
+
+                            <option value="Elden Ring">
+                                Elden Ring
+                            </option>
+
+                            <option value="VALORANT">
+                                VALORANT
+                            </option>
+
+                            <option value="Civilization VI">
+                                Civilization VI
+                            </option>
+
+                        </select>
+
+                    </div>
+
+
+                    <!-- EVENTO -->
+
+                    <div class="form-group">
+
+                        <label for="evento">
+                            Evento al que deseas asistir
+                        </label>
+
+                        <select id="evento" required>
+
+                            <option value="">
+                                Selecciona un evento
+                            </option>
+
+                            <option value="Noche de Battle Royale">
+                                Noche de Battle Royale
+                            </option>
+
+                            <option value="Gaming Night">
+                                Gaming Night
+                            </option>
+
+                            <option value="Introducción a los videojuegos">
+                                Introducción a los videojuegos
+                            </option>
+
+                            <option value="Arena GameZone">
+                                Arena GameZone
+                            </option>
+
+                            <option value="IUC GameZone Championship">
+                                IUC GameZone Championship
+                            </option>
+
+                        </select>
+
+                    </div>
+
+
+                    <!-- BOTÓN -->
+
+                    <button
+                        type="submit"
+                        class="btn btn-primary register-button"
+                    >
+                        Completar registro →
+                    </button>
+
+
+                    <!-- MENSAJE -->
+
+                    <div
+                        id="mensajeRegistro"
+                        class="register-message"
+                    ></div>
+
+                </form>
+
+            </div>
+
+
+            <!-- ================= INFORMACIÓN ================= -->
+
+            <aside class="register-info">
+
+                <div class="register-info-icon">
+                    🎮
+                </div>
+
+                <h2>
+                    ¿Por qué registrarte?
+                </h2>
+
+                <p>
+                    Al registrarte podrás participar en las actividades
+                    organizadas por IUC GameZone.
+                </p>
+
+
+                <div class="register-benefit">
+
+                    <span>
+                        ✓
+                    </span>
+
+                    <div>
+
+                        <strong>
+                            Participa en eventos
+                        </strong>
+
+                        <p>
+                            Inscríbete en torneos y actividades.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <div class="register-benefit">
+
+                    <span>
+                        ✓
+                    </span>
+
+                    <div>
+
+                        <strong>
+                            Forma parte de la comunidad
+                        </strong>
+
+                        <p>
+                            Comparte tus gustos con otros jugadores.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <div class="register-benefit">
+
+                    <span>
+                        ✓
+                    </span>
+
+                    <div>
+
+                        <strong>
+                            Personaliza tu perfil
+                        </strong>
+
+                        <p>
+                            Elige tu nombre de jugador y juego favorito.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <div class="register-note">
+
+                    💡
+
+                    <span>
+                        Tus datos se almacenan localmente en este
+                        navegador para este proyecto académico.
+                    </span>
+
+                </div>
+
+            </aside>
+
+        </section>
+
+    </main>
+
+
+    <!-- ================= NAVEGACIÓN ================= -->
+
+    <nav class="page-navigation">
+
+        <a href="actividad_04.html">
+            ← Eventos
+        </a>
+
+        <a href="actividad_06.html">
+            Comunidad →
+        </a>
+
+    </nav>
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer class="site-footer">
+
+        <div>
+
+            <strong>
+                IUC GameZone
+            </strong>
+
+            <span>
+                Portal gamer · Institución Universitaria de Colombia
+            </span>
+
+        </div>
+
+
+        <div class="footer-links">
+
+            <a href="index.html">Inicio</a>
+
+            <a href="actividad_01.html">Juegos</a>
+
+            <a href="actividad_02.html">Noticias</a>
+
+            <a href="actividad_03.html">Guías</a>
+
+            <a href="actividad_04.html">Eventos</a>
+
+            <a href="actividad_05.html">Registro</a>
+
+            <a href="actividad_06.html">Comunidad</a>
+
+        </div>
+
+
+        <div>
+
+            <span>
+                Desarrollado por Marlon Rios · 2026
+            </span>
+
+        </div>
+
+    </footer>
+
+
+    <!-- ================= JAVASCRIPT ================= -->
+
+    <script>
+
+        const formulario = document.getElementById("registroForm");
+
+        const mensaje = document.getElementById("mensajeRegistro");
+
+
+        formulario.addEventListener("submit", function(event) {
+
+            event.preventDefault();
+
+
+            const nombre = document.getElementById("nombre").value.trim();
+
+            const correo = document.getElementById("correo").value.trim();
+
+            const usuario = document.getElementById("usuario").value.trim();
+
+            const juego = document.getElementById("juego").value;
+
+            const evento = document.getElementById("evento").value;
+
+
+            const jugador = {
+
+                nombre: nombre,
+
+                correo: correo,
+
+                usuario: usuario,
+
+                juego: juego,
+
+                evento: evento,
+
+                fechaRegistro: new Date().toLocaleDateString()
+
+            };
+
+
+            localStorage.setItem(
+                "jugadorGameZone",
+                JSON.stringify(jugador)
+            );
+
+
+            mensaje.innerHTML = `
+                <strong>✓ Registro completado</strong>
+                <br>
+                Bienvenido, ${nombre}.
+                <br>
+                Tu usuario <strong>${usuario}</strong>
+                ha sido registrado correctamente.
+            `;
+
+
+            mensaje.classList.add("success");
+
+
+            formulario.reset();
+
+        });
+
+    </script>
+
+</body>
+
+</html>
